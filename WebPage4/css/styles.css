@@ -1,0 +1,305 @@
+/*Ananthu
+Time:5:20pm
+Date:09-11-2021*/
+
+.section1{
+	background-image: url(../img/academy-banner.jpg);
+	background-size: cover;
+	height:100vh;
+}
+
+/*---logo---*/
+.div1{
+	padding-left: 950px;
+	padding-top: 200px;	
+}
+
+.logo{
+	background-image: url(../img/logo.png);
+	background-size: cover;
+	height: 85px;
+	width: 250px;
+}
+
+.div2{
+	padding-left: 750px;
+		
+}
+h1{
+	font-size: 40px;
+	color: #1e2531;
+	text-align: right;
+	padding-right: 100px;
+	
+}
+
+
+.section2{
+	height:75vh;
+	padding: 30px;
+}
+
+.section2 .image{
+	display: flex;
+	align-items:center;
+}
+
+.text3{
+	background-image: url(../img/whylove-img.jpg);
+	background-size: cover;
+	width:45%;
+    height:500px;   
+}
+
+.side{
+	background-color: #1e2531;
+    color: cyan;
+    margin-left: -150px;
+    padding:35px;
+    font-size: 25px;
+}
+.side span{
+	color: red;
+}
+
+
+
+.section3{
+	
+	padding: 80px;
+	justify-content: center;
+	font-size: 20px;
+	padding-top: 10px;
+}
+
+
+.section4{
+	height: 100vh;
+}
+
+.section4 .image3{
+	background-image: url(../img/modulebg.jpg);
+	height: 100vh;
+}
+
+.image3{
+	display: flex;
+    align-items: center;
+}
+
+.image4 h4{
+    background-color:rgba(0,0,0,0.5) ;
+    color: white;
+    font-size: 15px;
+    width: 220px;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    margin: 30px;
+}
+
+
+
+.section5{	
+	padding:60px;
+	justify-content: center;
+	font-size: 20px;
+	padding: 40px;
+}
+
+
+.section6{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+.image1{
+	background-image: url(../img/testsbg.jpg);
+	height:250px;
+	width:50%;
+	padding:50px;
+}
+
+.image2{
+	background-image: url(../img/intrvwbg.jpg);
+	height:250px;
+	width:50%;
+	padding:50px;
+}
+
+.text1{
+	color: #ffffff;
+	font-size: 20px;
+	text-align: center;
+	align-content: center;
+	padding: 90px;
+	background-color: rgba(6,8,11,0.7);
+}
+.section7{
+	padding: 30px;
+	text-align: center;
+}
+.section7 a{
+	color: #f26422;
+	text-decoration: none;
+	border: 2px solid #f26422;
+	padding: 15px;
+	justify-content: center;
+	padding: 15px 30px;    
+}
+
+.section7 p{
+	padding-top:40px;
+}
+
+.bottom{
+	display: flex;
+	justify-content: center;
+}
+
+.contact{
+	padding: 50px;
+	text-align: center;
+}
+.contact1{
+	padding: 50px;
+	text-align: center;
+}
+
+
+
+/*---mobile---*/
+@media only screen and (max-width: 576px)
+{
+	.section1{
+		background-image: none;
+		background-color: rgb(65, 123, 171);
+		width: 360px;
+		height: 60vh;
+	}
+	.div1{
+	padding-left: 50px;
+	padding-top: 60px;	
+}
+
+.logo{
+	background-image: url(../img/logo.png);
+	background-size: cover;
+	height: 85px;
+	width: 250px;
+}
+
+.div2{
+	
+	padding-left: 0px;
+}
+h1{
+	font-size: 30px;
+	color: #1e2531;
+	padding-left: 70px;
+	text-align:center;	
+}
+
+
+.section2{
+	width: 360px;
+	height: 35vh;
+	padding:0px;
+	
+}
+.text3{
+	background-image: none;
+}
+.image{
+	
+	height: 30vh;
+}
+.side{
+      width: 360px;
+      font-size: 15px;
+}
+
+
+.section3{
+	width: 320px;
+	font-size: 18px;
+	padding: 20px;
+}
+
+
+
+.section4{
+	width: 360px;
+	height: 60vh;
+}
+.section4 .image3{
+	height: 60vh;
+}
+.image3{
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+      }
+
+.image4 h4{
+        font-size: 10px;
+        width: 70px;
+        border-radius: 20px;
+        text-align: center;
+        margin: 10px;
+}
+
+
+.section5{
+	width: 320px;
+	font-size: 18px;
+	padding: 20px;
+}
+
+
+.section6{
+	width: 360px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.image1{
+	width:300px;
+	 padding-top: 150px;
+	  padding-left: 10px;
+}
+.text1{
+	 width: 300px;
+       font-size: 20px;
+       padding: 20px;
+       
+}
+.image2{
+	width:300px;
+	padding-top: 150px;
+	  padding-left: 10px;
+}
+
+
+.section7{
+	width: 300px;
+	font-size: 15px;
+}
+
+
+
+.bottom{
+    width: 360px;
+	display: flex;
+	flex-direction: column;
+	
+}
+.contact{
+	background-color: rgba(20,101,25);
+	padding: 80px;
+}
+.contact1{
+	background-color: rgba(0,0,0,.8);
+	padding: 80px;
+}
+}
